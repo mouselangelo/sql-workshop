@@ -8,7 +8,7 @@ A workshop on getting started with SQL for non-developers.
 
 - To get the most out of the workshop, it is recommended to bring a laptop, with the required software installed, or at least downloaded.
 
- >All demos during the workshop are conducted on a Mac. If you use Windows or other opersting systems, you can still follow along.
+ >All demos during the workshop are conducted on a Mac. If you use Windows or another operating system, you can still follow along. However, it is recommended that you install the required software beforehand.
 
 ### Software required
 
