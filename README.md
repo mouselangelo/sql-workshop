@@ -17,14 +17,20 @@ The _**SQL Database Server**_ used to store data and capable of running SQL Comm
 
 ###### Download & Install
 
-[Other OS? Download MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
-
 **MacOS / OSX:**
 
-https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.16-macos10.14-x86_64.dmg
+[MySQL Community Server installer v8.0.16 (.dmg)](
+https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.16-macos10.14-x86_64.dmg)
 
 **Windows:**
-https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.16.0.msi
+
+[MySQL Server & Other tools installer v8.0.16 (.msi)](
+https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.16.0.msi)
+
+**Other OS:**
+
+[Download MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
+
 
 
 #### MySQL Workbench
@@ -34,8 +40,26 @@ The _**SQL client**_ used to connect to the _**server**_.
 > If you prefer an alternate SQL client, it's fine. Just ensure you are able to use it to connect to MySQL.
 
 
+###### Download & Install
 
+**MacOS / OSX:**
 
+[MySQL Workbench installer v8.0.16 (.dmg)](
+https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.16-macos-x86_64.dmg)
 
+**Windows:**
 
-[Download | DBeaver Community](https://dbeaver.io/download/)
+The [previous installer](
+https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.16.0.msi) should have options to install Workbench too.
+
+However if you need to install it separately, install all of these in sequence:
+
+[Microsoft .NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+
+[Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+
+[MySQL Workbench for Windows installer (.msi)](https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.16-winx64.msi)
+
+**Other OS:**
+
+[Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
