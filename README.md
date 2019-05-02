@@ -2,13 +2,13 @@
 
 A workshop on getting started with SQL for non-developers.
 
+- No prior programming experience required. The workshop is designed for beginners and non-programmers.
+
 - Learn SQL using hands on approach. You will not only learn some theory but get to write SQL queries alongside.
 
-- 
+- To get the most out of the workshop, it is recommended to bring a laptop, with the required software installed, or at least downloaded.
 
- > Bring a laptop (if you can), with the required software installed (or downloaded). 
- >
- >The workshop is conducted using MacOS. If you use Windows or other opersting systems, you can still follow along. 
+ >All demos during the workshop are conducted on a Mac. If you use Windows or other opersting systems, you can still follow along.
 
 ### Software required
 
