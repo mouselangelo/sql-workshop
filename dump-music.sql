@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS `albums`;
  SET character_set_client = utf8mb4 ;
 CREATE TABLE `albums` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `release_year` int(11) NOT NULL,
+  `year` int(11) NOT NULL,
   `album` varchar(255) NOT NULL,
   `artist` varchar(255) NOT NULL,
   `genre` varchar(255) DEFAULT NULL,
@@ -33,7 +33,7 @@ CREATE TABLE `albums` (
   `rating` float DEFAULT NULL,
   `votes` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `albums_year_IDX` (`release_year`) USING BTREE,
+  KEY `albums_year_IDX` (`year`) USING BTREE,
   KEY `albums_album_IDX` (`album`) USING BTREE,
   KEY `albums_artist_IDX` (`artist`) USING BTREE,
   KEY `albums_genre_IDX` (`genre`) USING BTREE,
